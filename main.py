@@ -1,6 +1,7 @@
 from encrypt_image import encrypt
 from decrypt_image import decrypt
 
+
 def main():
     print("Welcome to Image Encryptor!\n")
     print("1. Encrypt Image")
@@ -29,6 +30,7 @@ def main():
     restart = input("Do you want to run the program again? (y/n): ")
     if restart.lower() == 'y':
         main()
+
 
 if __name__ == "__main__":
     main()
